@@ -66,3 +66,15 @@ body.dark-mode a {
     padding: 0;
     box-sizing: border-box;
 }
+
+pre {
+    font-family: 'Courier New', Courier, monospace; /* Set font to a monospace style */
+    font-size: 18px; /* Adjust the size of the font */
+    line-height: 1.6; /* Add some space between lines */
+    color: #333; /* Set text color */
+    background-color: #f4f4f4; /* Light background color */
+    padding: 20px; /* Add padding around the text */
+    border-radius: 8px; /* Rounded corners for the background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    white-space: pre-wrap; /* Allow text to wrap to the next line if it's too long */
+}
